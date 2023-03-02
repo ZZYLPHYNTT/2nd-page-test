@@ -1,0 +1,138 @@
+/********AQUI EMPIEZA EL BLOQUE SUPERIOR********/
+body {
+  margin: 0;
+  text-align: center;
+  font-family: "Merriweather", sans-serif;
+}
+
+h1 {
+  color: #66bfbf;
+  font-family: "Sacramento", cursive;
+  font-size: 5.625rem;
+  line-height: 2;
+  margin: 50px auto 0 auto;
+}
+
+h2 {
+  color: #66bfbf;
+  font-size: 2.5rem;
+  font-weight: normal;
+  font-family: "Montserrat", sans-serif;
+}
+
+h3 {
+  color: #11999e;
+  font-family: "Montserrat", sans-serif;
+}
+
+a {
+  color: #11999e;
+}
+
+.top-container {
+  background-color: #eaf6f6;
+  position: relative;
+  padding-top: 100px;
+}
+/********AQUI EMPIEZA EL BLOQUE MEDIO********/
+
+.middle-container{
+  margin-bottom: 200px;
+}
+
+hr{
+border: dotted #11999e 6px;
+border-bottom: none;
+width: 6%;
+margin: 100px auto;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.skill-row {
+  line-height: 2;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  width: 50%;
+}
+
+/******IMAGENES******/
+
+.profile-pic {
+  width: 15%;
+}
+.code-img {
+  float: left;
+  margin-right: 30px;
+  width: 25%;
+}
+.chillies-img {
+  float: right;
+  margin-left: 30px;
+  width: 25%;
+}
+/*****BUTTONS******/
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: "Merriweather";
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+
+.cont-me-h2{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.cont-me-h3{
+  margin-bottom: 100px;
+}
+
+.cont-me-p{
+  margin-bottom: 100px;
+}
+
+.bottom-container{
+  padding-top: 50px;
+  height: 110px;
+  background-color: #66BFBF;
+}
+.footer-link{
+  padding-left: 50px;
+  text-decoration: none;
+}
+.copy{
+  color: #EAF6F6;
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
